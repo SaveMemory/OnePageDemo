@@ -2,25 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>OnePageDemo</title>
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <title>Filip Lipowiecki</title>
     <meta name="description" content="The HTML5 Herald">
     <meta name="author" content="SitePoint">
     <link rel="stylesheet" href="style.css">
-
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 
-<body>
-<header></header>
-<nav></nav>
-<main>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-</main>
-
-<footer></footer>
-<script src="script.js"></script>
-</body>
+    <body>
+        <div id="headerImage">
+            <img src="./graphics/headerImage.jpg" alt="">
+        </div>
+        <header>
+            <nav>
+                <span>Filip Lipowiecki</span>
+                <ul>
+                    <li>About me</li>
+                    <li>What can i do</li>
+                    <li>My offer</li>
+                    <li>I'm here!</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </header>
+        <div id="helloCard">
+            <span id="welcomeText">Hi! You need a website i guess?</span>
+            <div>
+                <div><i class="fas fa-desktop"></i></div>
+                <div><i class="fas fa-code"></i></div>
+                <div><i class="fab fa-internet-explorer"></i></div>
+            </div>
+        </div>
+        <main>
+            <section id="aboutMe">
+                <h2>About me</h2>
+                <div class="sliderContainer">
+                    <div class="slideDisplay">
+                        <div class="slidesContainer">
+                            <div class="slide">
+                                <img src="./graphics/programming.jpg" alt="">
+                                <div><b>Programming</b> is my passion!</div>
+                            </div>
+                            <div class="slide">
+                                <img src="./graphics/technology.jpg" alt="">
+                                <div>I'm a <b>technology</b> enthusiast</div>
+                            </div>
+                            <div class="slide">
+                                <img src="./graphics/boxing.jpg" alt="">
+                                <div>When i'm not programming i'm training <b>muay thai</b></div>
+                            </div>
+                            <div class="slide">
+                                <img src="./graphics/motorcycle.jpg" alt="">
+                                <div>One day i'll buy a <b>motorcycle</b></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="dotsContainer">
+                    <a id="btnFirstSlide"><div id="one" class="dot"></div></a>
+                    <a id="btnSecondSlide"><div id="two" class="dot"></div></a>
+                    <a id="btnThirdSlide"><div id="three" class="dot"></div></a>
+                    <a id="btnFourthSlide"><div id="four" class="dot"></div></a>
+                </div>
+            </section>
+            <section id="whatCanIDo">What can i do</section>
+            <section id="offer">My offer</section>
+            <section id="hereIAm">I'm here!</section>
+            <section id="contact">Contact</section>
+        </main>
+        <footer>
+            <div class="facebook"></div>
+            <div class="twitter"></div>
+            <div class="gmail"></div>
+        </footer>
+        <script src="scripts/sliderScript.js"></script>
+    </body>
 </html>

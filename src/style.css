@@ -1,5 +1,164 @@
 body {
-  background-color: black;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-weight: bold;
+    font-size: 1.3em;
+    background-color: #d9d3c7;
+    margin: 0;
 }
 
-/*# sourceMappingURL=style.css.map */
+#headerImage {
+    z-index: -1;
+    height: 60vh;
+    position: absolute;
+    overflow: hidden;
+    opacity: 0.9;
+}
+
+header {
+    height: 50vh;
+    color: aliceblue;
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto 10vh;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    position: fixed;
+    z-index: 1;
+}
+
+#helloCard {
+    display: flex;
+    position: absolute;
+    margin: auto;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: 0;
+    width: 50%;
+    height: 40vh;
+    background-color: #cccccc;
+    border-radius: 3px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 1px 14px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 14px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 14px -1px rgba(0,0,0,0.75);
+}
+
+#helloCard div {
+    display: flex;
+    width: 60%;
+    align-text: center;
+    justify-content: space-around;
+    font-size: 2em;
+}
+
+#welcomeText {
+    font-size: 3em;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+header span {
+    vertical-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main section {
+    margin-bottom: 100px;
+    height: 60vh;
+    width: auto;
+}
+
+#aboutMe {
+    margin-top: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #cccccc;
+}
+
+.slideDisplay {
+    width: 20vw;
+    overflow: hidden;
+}
+
+.slidesContainer {
+    margin-left: 0;
+    height: 100%;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide {
+    width: 20vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.slide div {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.slide img {
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 15%;
+}
+
+.sliderContainer {
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sliderContainer a {
+    font-size: 2em;
+}
+
+#dotsContainer {
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+}
+
+.dot {
+    width: 1vw;
+    height: 2vh;
+    background-color: #9d9d9d;
+    border: solid 1px #535353;
+    border-radius: 100%;
+}
+
+#one {
+    background-color: #676767;
+}
+
+.dot:hover {
+    cursor: pointer;
+    background-color: #676767;
+}
