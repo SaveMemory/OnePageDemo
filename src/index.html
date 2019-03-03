@@ -8,9 +8,10 @@
     <meta name="description" content="The HTML5 Herald">
     <meta name="author" content="SitePoint">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
           integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="./graphics/favicon.png"/>
 </head>
 
     <body>
@@ -32,9 +33,7 @@
         <div id="helloCard">
             <span id="welcomeText">Hi! You need a website i guess?</span>
             <div>
-                <div><i class="fas fa-desktop"></i></div>
-                <div><i class="fas fa-code"></i></div>
-                <div><i class="fab fa-internet-explorer"></i></div>
+                <img src="./graphics/webdev.png" alt="">
             </div>
         </div>
         <main>
@@ -69,16 +68,74 @@
                     <a id="btnFourthSlide"><div id="four" class="dot"></div></a>
                 </div>
             </section>
-            <section id="whatCanIDo">What can i do</section>
-            <section id="offer">My offer</section>
-            <section id="hereIAm">I'm here!</section>
-            <section id="contact">Contact</section>
+            <section id="whatCanIDo">
+                What can i do
+                <div class="gridContainer">
+                    <div><img src="./graphics/csharp.jpg" alt=""></div>
+                    <div><img src="./graphics/css.jpg" alt=""></div>
+                    <div><img src="./graphics/html.png" alt=""></div>
+                    <div><img src="./graphics/javascript.jpg" alt=""></div>
+                    <div><img src="./graphics/webdesign.jpg" alt=""></div>
+                    <div><img src="./graphics/rest.jpg" alt=""></div>
+                </div>
+            </section>
+            <section id="myOffer">
+                My offer
+                <div>
+                    <div class="card">
+                        <h3>Web Development</h3>
+                        <a id="webPlus"><i class="fas fa-plus"></i></a>
+                        <span id="webContent" class="content">You need a website? <br>I can make it for you.</span>
+                    </div>
+                    <div class="card">
+                        <h3>CMS</h3>
+                        <a id="cmsPlus"><i class="fas fa-plus"></i></a>
+                        <span id="cmsContent" class="content">You need a content management system? I can provide it.</span>
+                    </div>
+                    <div class="card">
+                        <h3>Web Services</h3>
+                        <a id="servicePlus"><i class="fas fa-plus"></i></a>
+                        <span id="serviceContent" class="content">You need fully functional <br> web service? I can develop it.</span>
+                    </div>
+                </div>
+            </section>
+            <section id="hereIAm">
+                I work here!
+                    <div class="gmapCanvas">
+                        <iframe width="1920"
+                                height="500" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=Westerplatte%201&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                        </iframe>
+                    </div>
+            </section>
+            <section id="contact">
+                <span>If you like my offer hit the button below!</span>
+                <a target="_blank" href="mailto:soad9700@wp.pl?subject=webPageContact" class="email">Contact</a>
+            </section>
         </main>
         <footer>
-            <div class="facebook"></div>
-            <div class="twitter"></div>
-            <div class="gmail"></div>
+            <div>
+                <div class="social">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+                <div class="social">
+                    <a href="https://twitter.com/?lang=pl" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="social">
+                    <a href="https://pl.linkedin.com/" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
         </footer>
+        <div class="legal">© copyright Filip Lipowiecki 2019</div>
         <script src="scripts/sliderScript.js"></script>
+        <script src="scripts/cardsScript.js"></script>
+        <script src="scripts/animationsScript.js"></script>
     </body>
 </html>
