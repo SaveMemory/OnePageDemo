@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,
     initial-scale=1.0">
-    <title>Filip Lipowiecki</title>
+    <title>OnePageDemo</title>
     <meta name="description" content="The HTML5 Herald">
     <meta name="author" content="SitePoint">
     <link rel="stylesheet" href="style.css">
@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
           integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/png" href="./graphics/favicon.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 </head>
 
     <body>
@@ -30,35 +31,24 @@
                 </ul>
             </nav>
         </header>
+        <div id="triangleContainer">
+            <div id="clock"></div>
+            <div id="triangle"></div>
+        </div>
         <div id="helloCard">
-            <span id="welcomeText">Hi! You need a website i guess?</span>
+            <span id="welcomeText">Sed ut perspiciatis unde <br>omnis iste natus error sit.</span>
             <div>
-                <img src="./graphics/webdev.png" alt="">
+                <i class="fas fa-globe"></i>
+                <i class="fas fa-glasses"></i>
+                <i class="far fa-address-card"></i>
             </div>
         </div>
         <main>
             <section id="aboutMe">
-                <h2>About me</h2>
-                <div class="sliderContainer">
-                    <div class="slideDisplay">
-                        <div class="slidesContainer">
-                            <div class="slide">
-                                <img src="./graphics/programming.jpg" alt="">
-                                <div><b>Programming</b> is my passion!</div>
-                            </div>
-                            <div class="slide">
-                                <img src="./graphics/technology.jpg" alt="">
-                                <div>I'm a <b>technology</b> enthusiast</div>
-                            </div>
-                            <div class="slide">
-                                <img src="./graphics/boxing.jpg" alt="">
-                                <div>When i'm not programming i'm training <b>muay thai</b></div>
-                            </div>
-                            <div class="slide">
-                                <img src="./graphics/motorcycle.jpg" alt="">
-                                <div>One day i'll buy a <b>motorcycle</b></div>
-                            </div>
-                        </div>
+                <h2>Lorem ipsum</h2>
+                <div class="slidesContainer">
+                    <div id="switchClass" class="slide">
+                        <img id="slideImage" src="./graphics/woman.jpg" alt="">
                     </div>
                 </div>
                 <div id="dotsContainer">
@@ -71,12 +61,9 @@
             <section id="whatCanIDo">
                 What can i do
                 <div class="gridContainer">
-                    <div><img src="./graphics/csharp.jpg" alt=""></div>
-                    <div><img src="./graphics/css.jpg" alt=""></div>
-                    <div><img src="./graphics/html.png" alt=""></div>
-                    <div><img src="./graphics/javascript.jpg" alt=""></div>
-                    <div><img src="./graphics/webdesign.jpg" alt=""></div>
-                    <div><img src="./graphics/rest.jpg" alt=""></div>
+                    <div class="smallGrid"><img src="" alt=""></div>
+                    <div id="bigGrid"><img src="./graphics/mountain.jpg" alt=""></div>
+                    <div class="smallGrid"><img src="" alt=""></div>
                 </div>
             </section>
             <section id="myOffer">
@@ -102,7 +89,7 @@
             <section id="hereIAm">
                 I work here!
                     <div class="gmapCanvas">
-                        <iframe width="1920"
+                        <iframe width="600px"
                                 height="500" id="gmap_canvas"
                                 src="https://maps.google.com/maps?q=Westerplatte%201&t=&z=13&ie=UTF8&iwloc=&output=embed"
                                 frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
@@ -137,5 +124,6 @@
         <script src="scripts/sliderScript.js"></script>
         <script src="scripts/cardsScript.js"></script>
         <script src="scripts/animationsScript.js"></script>
+        <script src="scripts/clockScript.js"></script>
     </body>
 </html>

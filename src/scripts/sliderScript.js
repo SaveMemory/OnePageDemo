@@ -13,51 +13,67 @@ btnSecondSlide.addEventListener('click', showSecondSlide);
 btnThirdSlide.addEventListener('click', showThirdSlide);
 btnFourthSlide.addEventListener('click', showFourthSlide);
 
+let slideImage = document.querySelector('#slideImage');
+
+let slide = document.querySelector('.slide');
+
 let slidesContainer = document.querySelector('.slidesContainer');
 
-let slides = ['0', '-20vw', '-40vw', '-60vw'];
+let images = ['./graphics/woman.jpg', './graphics/lips.gif', './graphics/shopping.png', './graphics/couple.png'];
 
 function showFirstSlide() {
-    slidesContainer.style.marginLeft = slides[0];
-    assignNewDot(1)
+    assignNewDot(1);
+    changeClass();
+    setTimeout(slideImage.src = images[0], 150000);
 }
 
 function showSecondSlide() {
-    slidesContainer.style.marginLeft = slides[1];
-    assignNewDot(2)
+    assignNewDot(2);
+    changeClass();
+    setTimeout(slideImage.src = images[1], 200);
 }
 
 function showThirdSlide() {
-    slidesContainer.style.marginLeft = slides[2];
-    assignNewDot(3)
+    assignNewDot(3);
+    changeClass();
+    setTimeout(slideImage.src = images[2], 200);
 }
 
 function showFourthSlide() {
-    slidesContainer.style.marginLeft = slides[3];
-    assignNewDot(4)
+    assignNewDot(4);
+    changeClass();
+    setTimeout(slideImage.src = images[3], 200);
 }
 
 function assignNewDot(dotNumber) {
     clearDots();
     switch (dotNumber) {
         case 1:
-            firstDot.style.backgroundColor = '#676767';
+            firstDot.style.backgroundColor = '#65ccb8';
             break;
         case 2:
-            secondDot.style.backgroundColor = '#676767';
+            secondDot.style.backgroundColor = '#65ccb8';
             break;
         case 3:
-            thirdDot.style.backgroundColor = '#676767';
+            thirdDot.style.backgroundColor = '#65ccb8';
             break;
         case 4:
-            fourthDot.style.backgroundColor = '#676767';
+            fourthDot.style.backgroundColor = '#65ccb8';
             break;
     }
 }
 
 function clearDots() {
-    firstDot.style.backgroundColor = '#9d9d9d';
-    secondDot.style.backgroundColor = '#9d9d9d';
-    thirdDot.style.backgroundColor = '#9d9d9d';
-    fourthDot.style.backgroundColor = '#9d9d9d';
+    firstDot.style.backgroundColor = '#c4c4c4';
+    secondDot.style.backgroundColor = '#c4c4c4';
+    thirdDot.style.backgroundColor = '#c4c4c4';
+    fourthDot.style.backgroundColor = '#c4c4c4';
+    changeClass();
+}
+
+function changeClass() {
+    if(document.getElementById("switchClass").className === "slide")
+        document.getElementById("switchClass").className = "slideOnChange";
+    else
+        setTimeout(function(){document.getElementById("switchClass").className = "slide";}, 400)
 }
