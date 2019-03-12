@@ -43,8 +43,7 @@ nav {
     align-items: center;
     margin-bottom: 50px;
     position: fixed;
-    z-index: 1;
-
+    z-index: 5;
 }
 
 #helloCard {
@@ -270,19 +269,24 @@ main section {
     text-align: center;
 }
 
-#myOffer div div {
+#myOffer .card {
     color: #57ba98;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 25%;
     height: 40vh;
+    justify-content: space-around;
+    font-weight: bolder;
     background-color: aliceblue;
     -webkit-box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
     -moz-box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
     box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
-    justify-content: space-around;
-    font-weight: bolder;
+}
+
+#myOffer .card:hover {
+    transition-duration: 0.1s;
+    transform: scale(1.1);
 }
 
 .content {
@@ -297,6 +301,7 @@ main section {
     margin-bottom: 10vh;
     font-size: 2em;
     cursor: pointer;
+    color: #57ba98;
 }
 
 .card a div:hover {
@@ -437,17 +442,19 @@ i:hover {
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
  #clock {
      background: #65ccb8;
      display: flex;
      justify-content: space-around;
+     align-items: center;
      width: 10%;
      height: 47px;
      position: fixed;
-     bottom: 20vh;
+     bottom: 3vw;
      z-index: 2;
      color: aliceblue;
-     font-size: 1.7em;
+     font-size: 2vw;
      font-weight: bolder;
      border: 0px solid #000000;
  }
@@ -460,7 +467,7 @@ i:hover {
      width: 0;
      height: 0;
      position: fixed;
-     bottom: 20vh;
+     bottom: 3.02vw;
      left: 9.97vw;
      z-index: 2;
      color: aliceblue;
@@ -486,7 +493,7 @@ i:hover {
 
  .signUp {
      margin-left: 10vw;
-     width: 20%;
+     width: 400px;
      height: 200px;
      display: flex;
      flex-direction: column;
@@ -517,7 +524,7 @@ i:hover {
 
  .signUp div input {
      outline: none;
-     font-size: 1.5vw;
+     font-size: 1.3em;
      border-radius: 12px 12px 12px 12px;
      -moz-border-radius: 12px 12px 12px 12px;
      -webkit-border-radius: 12px 12px 12px 12px;
@@ -530,27 +537,34 @@ i:hover {
  }
 
  .signUp button {
-     font-size: 1.1vw;
+     font-size: 1.1em;
      border-radius: 12px 12px 12px 12px;
      -moz-border-radius: 12px 12px 12px 12px;
      -webkit-border-radius: 12px 12px 12px 12px;
      border: 0px solid #000000;
      outline: none;
-     background-color: #c8cfd6;
+     background-color: #65ccb8;
+     color: aliceblue;
+     font-family: inherit;
+     font-weight: bolder;
+     padding: 10px;
  }
 
 .signUp button:hover {
     cursor: pointer;
-    background-color: #888888;
+    background-color: aliceblue;
+    color: #65ccb8;
+    -webkit-box-shadow: 0px 5px 13px 0px rgba(122,122,122,1);
+    -moz-box-shadow: 0px 5px 13px 0px rgba(122,122,122,1);
+    box-shadow: 0px 5px 13px 0px rgba(122,122,122,1);
 }
 
  .info {
+     max-height: 100%;
      width: 40%;
-     height: 200px;
      display: flex;
      flex-direction: column;
      justify-content: space-around;
-     align-items: center;
      background-color: aliceblue;
      border-radius: 12px 12px 12px 12px;
      -moz-border-radius: 12px 12px 12px 12px;
@@ -560,4 +574,102 @@ i:hover {
      -moz-box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
      box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
      padding: 1.5vw;
+ }
+
+ .info div {
+     max-height: 100%;
+ }
+
+ .info span {
+    font-size: 0.9vw;
+ }
+
+ .info h3 {
+    font-size: 1.3vw;
+ }
+
+ #skills {
+     width: 100%;
+     height: 800px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .allSkillsContainer {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .skillsContainer {
+     width: 50%;
+     height: 50%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .skill {
+     display: flex;
+     flex-direction: column;
+     width: 80%;
+     height: 150px;
+     text-align: center;
+     position: relative;
+     justify-content: space-around;
+     align-items: center;
+     -webkit-box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
+     -moz-box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
+     box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
+ }
+
+ .skill span {
+     position: absolute;
+     bottom: 110px;
+ }
+
+ .level {
+     top: 90px;
+     background-color: #65ccb8;
+     z-index: 3;
+     border-radius: 40px;
+     height: 6%;
+ }
+
+ #css {
+     width: 40%;
+     position: absolute;
+     right: 55%;
+ }
+
+#js {
+    width: 70%;
+    position: absolute;
+    right: 25%;
+}
+
+#kotlin {
+    width: 30%;
+    position: absolute;
+    right: 65%;
+}
+
+#html {
+    width: 60%;
+    position: absolute;
+    right: 35%;
+}
+
+ .toAchieve {
+     position: absolute;
+     width: 90%;
+     height: 6%;
+     background-color: #999999;
+     border-radius: 40px;
+     top: 90px;
  }

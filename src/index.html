@@ -13,6 +13,7 @@
           integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/png" href="./graphics/favicon.png"/>
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="./plugins/aos/aos.css" type="text/css">
 </head>
 
     <body>
@@ -21,10 +22,10 @@
             <nav>
                 <span>Filip Lipowiecki</span>
                 <ul>
-                    <li>About me</li>
-                    <li>What can i do</li>
-                    <li>My offer</li>
-                    <li>I'm here!</li>
+                    <li>About</li>
+                    <li>What</li>
+                    <li>Offer</li>
+                    <li>Here</li>
                     <li>Contact</li>
                 </ul>
             </nav>
@@ -33,7 +34,7 @@
             <div id="clock"></div>
             <div id="triangle"></div>
         </div>
-        <div id="helloCard">
+        <div id="helloCard" data-aos="fade-up" data-aos-duration="900">
             <span id="welcomeText">Sed ut perspiciatis unde <br>omnis iste natus error sit.</span>
             <div>
                 <i class="fas fa-globe"></i>
@@ -42,14 +43,14 @@
             </div>
         </div>
         <main>
-            <section id="aboutMe">
+            <section id="aboutMe" >
                 <h2>Lorem ipsum</h2>
-                <div class="slidesContainer">
+                <div class="slidesContainer" data-aos="zoom-in-down" data-aos-duration="800">
                     <div id="switchClass" class="slide">
                         <img id="slideImage" src="./graphics/woman.jpg" alt="">
                     </div>
                 </div>
-                <div id="dotsContainer">
+                <div id="dotsContainer" data-aos="zoom-in-down" data-aos-duration="800">
                     <a id="btnFirstSlide"><div id="one" class="dot"></div></a>
                     <a id="btnSecondSlide"><div id="two" class="dot"></div></a>
                     <a id="btnThirdSlide"><div id="three" class="dot"></div></a>
@@ -59,66 +60,85 @@
             <section id="whatCanIDo">
                 What can i do
                 <div class="gridContainer">
-                    <div class="smallGrid"><img src="./graphics/turtle.jpg" alt=""></div>
-                    <div id="bigGrid"><img src="./graphics/mountain.jpg" alt=""></div>
-                    <div class="smallGrid"><img src="./graphics/sea.jpg" alt=""></div>
+                    <div class="smallGrid" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100"><img src="./graphics/turtle.jpg" alt=""></div>
+                    <div id="bigGrid" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400"><img src="./graphics/mountain.jpg" alt=""></div>
+                    <div class="smallGrid" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200"><img src="./graphics/sea.jpg" alt=""></div>
                 </div>
             </section>
             <section id="myOffer">
                 My offer
                 <div>
-                    <div class="card">
+                    <div class="card" data-aos="fade-right" data-aos-delay="150" data-aos-duration="600">
+
                         <h3>Web <br> Development</h3>
-                        <a id="webPlus"><i class="fas fa-plus"></i></a>
+                        <div><a id="webPlus"><i class="fas fa-plus"></i></a></div>
                         <span id="webContent" class="content">YLorem ipsum dolor sit <br>adipiscing elit</span>
                     </div>
-                    <div class="card">
+                    <div class="card" data-aos="fade-right" data-aos-delay="350"  data-aos-duration="600">
                         <h3>CMS</h3>
-                        <a id="cmsPlus"><i class="fas fa-plus"></i></a>
+                        <div><a id="cmsPlus"><i class="fas fa-plus"></i></a></div>
                         <span id="cmsContent" class="content">YLorem ipsum dolor sit <br>adipiscing elit</span>
                     </div>
-                    <div class="card">
+                    <div class="card" data-aos="fade-right" data-aos-delay="550"  data-aos-duration="600">
                         <h3>Web Services</h3>
-                        <a id="servicePlus"><i class="fas fa-plus"></i></a>
+                        <div><a id="servicePlus"><i class="fas fa-plus"></i></a></div>
                         <span id="serviceContent" class="content">YLorem ipsum dolor sit <br>adipiscing elit</span>
                     </div>
                 </div>
             </section>
             <section id="newsletter">
-                <div class="signUp">
+                <div class="signUp" data-aos="fade-down" data-aos-duration="900">
                     <div id="name">
                         <label>
-                            <input type="text">
+                            <input type="text" placeholder="Name">
                         </label>
                     </div>
                     <div id="emailAdress">
                         <label>
-                            <input type="text">
+                            <input type="text" placeholder="Email">
                         </label>
                     </div>
                 <div><button>Sign up</button></div>
                 </div>
-                <div class="info">
+                <div class="info" data-aos="fade-down" data-aos-duration="900">
                     <div>
                         <div class="sideIcon"></div>
                         <h3>Title</h3>
-                        <span>Lorem ipsum</span>
+                        <span>Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor i
+                            ncididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam, quis nostrud exercitation ullamco laboris
+                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit in voluptate velit esse cillum
+                        </span>
                     </div>
                     <div>
                         <div class="sideIcon"></div>
                         <h3>Title</h3>
-                        <span>Lorem ipsum</span>
+                        <span>Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor i
+                            ncididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam, quis nostrud exercitation ullamco laboris
+                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit in voluptate velit esse cillum
+                        </span>
                     </div>
                     <div>
                         <div class="sideIcon"></div>
                         <h3>Title</h3>
-                        <span>Lorem ipsum</span>
+                        <span>Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor i
+                            ncididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam, quis nostrud exercitation ullamco laboris
+                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit in voluptate velit esse cillum
+                        </span>
                     </div>
                 </div>
             </section>
             <section id="hereIAm">
                 I work here!
-                    <div class="gmapCanvas">
+                    <div class="gmapCanvas" data-aos="zoom-in" data-aos-duration="600">
                         <iframe width="600px"
                                 height="500" id="gmap_canvas"
                                 src="https://maps.google.com/maps?q=Westerplatte%201&t=&z=13&ie=UTF8&iwloc=&output=embed"
@@ -126,9 +146,38 @@
                         </iframe>
                     </div>
             </section>
+            <section id="skills">
+                <span>My skills</span>
+                <div class="allSkillsContainer">
+                    <div class="skillsContainer">
+                        <div class="skill" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+                            <span>Html</span>
+                            <div id="html" class="level" data-aos="fade-right" data-aos-duration="1000"  data-aos-delay="250"></div>
+                            <div class="toAchieve"></div>
+                        </div>
+                        <div class="skill" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="250">
+                            <span>CSS</span>
+                            <div id="css" class="level" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="250"></div>
+                            <div class="toAchieve"></div>
+                        </div>
+                    </div>
+                    <div class="skillsContainer">
+                        <div class="skill" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="250">
+                            <span>JavaScript</span>
+                            <div id="js" class="level" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="250"></div>
+                            <div class="toAchieve"></div>
+                        </div>
+                        <div class="skill" data-aos="zoom-in" data-aos-duration="1000">
+                            <span>Kotlin</span>
+                            <div id="kotlin" class="level" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="250"></div>
+                            <div class="toAchieve"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section id="contact">
                 <span>If you like my offer hit the button below!</span>
-                <a target="_blank" href="mailto:soad9700@wp.pl?subject=webPageContact" class="email">Contact</a>
+                <a target="_blank" href="mailto:soad9700@wp.pl?subject=webPageContact" class="email" data-aos="flip-left" data-aos-duration="600">Contact</a>
             </section>
         </main>
         <footer>
@@ -153,7 +202,11 @@
         <div class="legal">© copyright Filip Lipowiecki 2019</div>
         <script src="scripts/sliderScript.js"></script>
         <script src="scripts/cardsScript.js"></script>
-        <script src="scripts/animationsScript.js"></script>
+        <script src="scripts/headerScript.js"></script>
         <script src="scripts/clockScript.js"></script>
+        <script src="./plugins/aos/aos.js"></script>
+        <script type="text/javascript">
+            AOS.init();
+        </script>
     </body>
 </html>
