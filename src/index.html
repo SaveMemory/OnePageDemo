@@ -22,25 +22,29 @@
             <nav>
                 <span>Filip Lipowiecki</span>
                 <ul>
-                    <li>About</li>
-                    <li>What</li>
-                    <li>Offer</li>
-                    <li>Here</li>
-                    <li>Contact</li>
+                    <li class="about">About</li>
+                    <li class="interests">Interests</li>
+                    <li class="offer">Offer</li>
+                    <li class="news">News</li>
+                    <li class="map">Map</li>
+                    <li class="skills">Skills</li>
+                    <li class="contact">Contact</li>
                 </ul>
             </nav>
         </header>
+        <div class="floatingScrollBtn"><i class="fas fa-angle-up"></i></div>
         <div id="triangleContainer">
             <div id="clock"></div>
             <div id="triangle"></div>
         </div>
         <div id="helloCard" data-aos="fade-up" data-aos-duration="900">
-            <span id="welcomeText">Sed ut perspiciatis unde <br>omnis iste natus error sit.</span>
+            <span id="welcomeText">Sed ut perspiciatis unde</span>
             <div>
                 <i class="fas fa-globe"></i>
                 <i class="fas fa-glasses"></i>
                 <i class="far fa-address-card"></i>
             </div>
+            <span id="haveSomeFun">Have some fun!</span>
         </div>
         <main>
             <section id="aboutMe" >
@@ -50,7 +54,7 @@
                         <img id="slideImage" src="./graphics/woman.jpg" alt="">
                     </div>
                 </div>
-                <div id="dotsContainer" data-aos="zoom-in-down" data-aos-duration="800">
+                <div id="dotsContainer">
                     <a id="btnFirstSlide"><div id="one" class="dot"></div></a>
                     <a id="btnSecondSlide"><div id="two" class="dot"></div></a>
                     <a id="btnThirdSlide"><div id="three" class="dot"></div></a>
@@ -203,6 +207,7 @@
         <script src="scripts/cardsScript.js"></script>
         <script src="scripts/headerScript.js"></script>
         <script src="scripts/clockScript.js"></script>
+        <script src="scripts/scrollScript.js"></script>
         <script src="./plugins/aos/aos.js"></script>
         <script type="text/javascript">
             AOS.init();
