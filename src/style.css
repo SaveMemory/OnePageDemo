@@ -1,10 +1,14 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.3vw;
     background-color: #ecf2fa;
     margin: 0;
     overflow-x: hidden;
+}
+
+h2 {
+    color: #727272;
 }
 
 #headerImage {
@@ -40,7 +44,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    left: 92%;
+    left: 92vw;
     position: fixed;
     background-color: aliceblue;
     width: 60px;
@@ -50,9 +54,11 @@ header {
     -moz-box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
     box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
     z-index: 6;
+    transition-duration: 0.5s;
 }
 
 .floatingScrollBtn:hover {
+    transition-duration: 0.5s;
     cursor: pointer;
     background-color: #65ccb8;
 }
@@ -109,30 +115,21 @@ nav li:hover {
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
     border: 0 solid #000000;
-    color: #c4c4c4;
+    color: #8e8e8e;
     text-align: center;
 }
 
 #haveSomeFun {
-    font-size: 25px;
-    opacity: 0;
+    font-size: 3em;
+    margin-bottom: 40px;
 }
 
 #helloCard div {
     display: flex;
-    width: 60%;
+    width: 80%;
     align-text: center;
     justify-content: space-around;
     font-size: 5em;
-}
-
-#welcomeText {
-    width: 100%;
-    font-size: 5em;
-    -webkit-box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
-    -moz-box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
-    box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
-    color: #65ccb8;
 }
 
 #helloCard div i {
@@ -148,12 +145,13 @@ nav li:hover {
 }
 
 #helloCard div i:hover {
+    color: #4b9583;
     cursor: crosshair;
     animation-play-state: running;
 }
 
 #helloCard:hover #haveSomeFun {
-    opacity: 1;
+    color: #57ba98;
 }
 
 @keyframes spin {
@@ -191,16 +189,53 @@ main section {
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
+    height: 40vw;
 }
 
 .slidesContainer {
     height: 60%;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
     background-color: #d8dfe6;
     -webkit-box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
     -moz-box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
     box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
+}
+
+.slidesContainer span {
+    color: aliceblue;
+    font-size: 2vw;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+    display: none;
+    text-align: center;
+    background-color: #4b9583;
+    border-radius: 0px 0px 6px 0px;
+    -moz-border-radius: 0px 0px 6px 0px;
+    -webkit-border-radius: 0px 0px 6px 0px;
+    border: 0px solid #000000;
+}
+
+.slidesContainer:hover span {
+    display: inline;
+}
+
+.likes{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5em;
+}
+
+.likes i {
+    color: #65ccb8;
+}
+
+.likes i:hover {
+    color: #4b9583;
+    cursor: pointer;
 }
 
 .slide {
@@ -338,7 +373,7 @@ main section {
     height: 50%;
     display: flex;
     justify-content: space-around;
-    font-size: 30px;
+    font-size: 1.4vw;
     text-align: center;
 }
 
@@ -348,7 +383,7 @@ main section {
     flex-direction: column;
     align-items: center;
     width: 25%;
-    height: 40vh;
+    height: 18vw;
     justify-content: space-around;
     font-weight: bolder;
     background-color: aliceblue;
@@ -361,14 +396,11 @@ main section {
     -webkit-box-shadow: 0px 0px 13px 0px rgb(87, 186, 152);
     -moz-box-shadow: 0px 0px 13px 0px rgb(87, 186, 152);
     box-shadow: 0px 0px 13px 0px rgb(87, 186, 152);
-}
-
-.content {
-    font-size: 20px;
-}
-
-#myOffer div div i {
     color: #57ba98;
+}
+
+#myOffer h3 {
+    border-bottom: 2px solid;
 }
 
 .card i {
@@ -377,20 +409,21 @@ main section {
     cursor: pointer;
     color: #57ba98;
 }
+.card:hover i {
+    color: #57ba98;
+}
 
 .card a div:hover {
     cursor: pointer;
 }
 
-.card .content {
-    font-size: 0.9em;
-    text-align: center;
-}
-
 .content {
     font-style: italic;
-    margin-bottom: 10vh;
+    margin-bottom: 3vw;
     display: none;
+    font-size: 0.9em;
+    text-align: center;
+    color: #8e8e8e;
 }
 
 #hereIAm {
@@ -403,6 +436,7 @@ main section {
 }
 
 .gmapCanvas {
+    width: 100%;
     max-width: 100%;
     -webkit-box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
     -moz-box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
@@ -418,7 +452,7 @@ main section {
     justify-content: space-around;
 }
 
-.email {
+#contact .btn {
     width: 10%;
     height: 20%;
     background-color: #65ccb8;
@@ -426,19 +460,24 @@ main section {
     align-items: center;
     justify-content: space-around;
     text-decoration: none;
-    color: aliceblue;
     border-radius: 8px 8px 8px 8px;
     -moz-border-radius: 8px 8px 8px 8px;
     -webkit-border-radius: 8px 8px 8px 8px;
     border: 0px solid #000000;
 }
 
-.email:hover {
-    -webkit-box-shadow: 0px 5px 13px 0px rgba(122,122,122,1);
-    -moz-box-shadow: 0px 5px 13px 0px rgba(122,122,122,1);
-    box-shadow: 0px 5px 13px 0px rgba(122,122,122,1);
-    color: #65ccb8;
+#contact .btn:hover {
+    cursor: pointer;
     background-color: aliceblue;
+}
+
+.btn a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.btn:hover a {
+    color: #65ccb8;
 }
 
 footer {
@@ -454,7 +493,7 @@ footer div {
     justify-content: space-around;
     align-items: center;
     width: 40%;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 i {
@@ -567,8 +606,8 @@ footer i:hover {
  }
 
  .signUp {
-     margin-left: 10vw;
-     width: 400px;
+     margin-left: 2%;
+     width: 23%;
      height: 200px;
      display: flex;
      flex-direction: column;
@@ -597,6 +636,10 @@ footer i:hover {
      -webkit-border-radius: 12px 12px 12px 12px;
  }
 
+ .signUp input {
+     width: 100%;
+ }
+
  .signUp div input {
      outline: none;
      font-size: 1.3em;
@@ -616,8 +659,8 @@ footer i:hover {
     opacity: 0.3;
 }
 
- .signUp button {
-     font-size: 1.1em;
+ .btn {
+     font-size: 1.5vw;
      border-radius: 12px 12px 12px 12px;
      -moz-border-radius: 12px 12px 12px 12px;
      -webkit-border-radius: 12px 12px 12px 12px;
@@ -628,9 +671,11 @@ footer i:hover {
      font-family: inherit;
      font-weight: bolder;
      padding: 10px;
+     transition-duration: 0.5s;
  }
 
-.signUp button:hover {
+.btn:hover{
+    transition-duration: 0.5s;
     cursor: pointer;
     background-color: aliceblue;
     color: #65ccb8;
@@ -662,24 +707,26 @@ footer i:hover {
 
  .info span {
     font-size: 0.9vw;
+     color: #727272;
  }
 
  .info h3 {
     font-size: 1.3vw;
+     color: #57ba98;
  }
 
  #skills {
+     color: #727272;
      width: 100%;
-     height: 800px;
+     height: 700px;
      display: flex;
      flex-direction: column;
-     justify-content: space-around;
      align-items: center;
  }
 
  .allSkillsContainer {
      width: 100%;
-     height: 100%;
+     height: 90%;
      display: flex;
      justify-content: space-around;
      align-items: center;
@@ -687,9 +734,9 @@ footer i:hover {
 
  .skillsContainer {
      width: 50%;
-     height: 50%;
+     height: 70%;
      display: flex;
-     justify-content: space-between;
+     justify-content: space-around;
      align-items: center;
      flex-direction: column;
  }
@@ -710,7 +757,7 @@ footer i:hover {
 
  .skill span {
      position: absolute;
-     bottom: 110px;
+     bottom: 60%;
  }
 
  .level {
@@ -753,3 +800,30 @@ footer i:hover {
      border-radius: 40px;
      top: 90px;
  }
+
+.description {
+    font-size: 1.2vw;
+    position: marker;
+    font-style: italic;
+}
+
+.styledLetter {
+    color: #57ba98;
+    font-size: 1.3em;
+}
+
+#loading {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100vw;
+    height: 100%;
+    background-color: aliceblue;
+    background-image: url('./graphics/loadingGif.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.page { display: none; padding: 0 0.5em; }
