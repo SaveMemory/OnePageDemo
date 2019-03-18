@@ -2,6 +2,8 @@ let btnFirstSlide = document.querySelector('#btnFirstSlide');
 let btnSecondSlide = document.querySelector('#btnSecondSlide');
 let btnThirdSlide = document.querySelector('#btnThirdSlide');
 let btnFourthSlide = document.querySelector('#btnFourthSlide');
+let likeBtn = document.querySelector('#like');
+let dislikeBtn = document.querySelector('#dislike');
 
 let firstDot = document.querySelector('#one');
 let secondDot = document.querySelector('#two');
@@ -12,6 +14,14 @@ btnFirstSlide.addEventListener('click', showFirstSlide);
 btnSecondSlide.addEventListener('click', showSecondSlide);
 btnThirdSlide.addEventListener('click', showThirdSlide);
 btnFourthSlide.addEventListener('click', showFourthSlide);
+
+likeBtn.addEventListener('click', function () {
+   window.alert('Thank you!');
+});
+
+dislikeBtn.addEventListener('click', function () {
+    window.alert('Thats sad :(');
+});
 
 let slideImage = document.querySelector('#slideImage');
 

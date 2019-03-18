@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb80e1b5-2a8d-4122-8267-66b74213c3c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/graphics/loadingGif.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/loadingPageScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/gridScript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/sliderScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/sliderScript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,29 +19,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="146" column="24" lean-forward="true" selection-start-line="146" selection-start-column="24" selection-end-line="146" selection-end-column="24" />
+            <state relative-caret-position="288">
+              <caret line="469" lean-forward="true" selection-start-line="469" selection-end-line="469" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/loadingPageScript.js">
+        <entry file="file://$PROJECT_DIR$/scripts/gridScript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="80" lean-forward="true" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
+            <state relative-caret-position="322">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="68" column="40" lean-forward="true" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -70,11 +70,17 @@
       <find>skill</find>
       <find>content</find>
       <find>welcome</find>
-      <find>card</find>
       <find>skills</find>
       <find>gmap</find>
       <find>hello</find>
+      <find>about</find>
       <find>iframe</find>
+      <find>whatc</find>
+      <find>card</find>
+      <find>what</find>
+      <find>gri</find>
+      <find>grid</find>
+      <find>@media</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,11 +94,12 @@
         <option value="$PROJECT_DIR$/scripts/mapsScript.js" />
         <option value="$PROJECT_DIR$/scripts/animationsScript.js" />
         <option value="$PROJECT_DIR$/scripts/clockScript.js" />
-        <option value="$PROJECT_DIR$/scripts/sliderScript.js" />
         <option value="$PROJECT_DIR$/scripts/cardsScript.js" />
         <option value="$PROJECT_DIR$/scripts/headerScript.js" />
         <option value="$PROJECT_DIR$/scripts/scrollScript.js" />
         <option value="$PROJECT_DIR$/scripts/loadingPageScript.js" />
+        <option value="$PROJECT_DIR$/scripts/sliderScript.js" />
+        <option value="$PROJECT_DIR$/scripts/gridScript.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
       </list>
@@ -110,17 +117,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="graphics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
@@ -142,7 +145,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,12 +197,15 @@
       <workItem from="1552419698705" duration="10477000" />
       <workItem from="1552508836890" duration="931000" />
       <workItem from="1552593419722" duration="11207000" />
-      <workItem from="1552672449651" duration="16140000" />
+      <workItem from="1552672449651" duration="16779000" />
+      <workItem from="1552767764383" duration="19000" />
+      <workItem from="1552846906205" duration="6075000" />
+      <workItem from="1552942604842" duration="7327000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134366000" />
+    <option name="totallyTimeSpent" value="148426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -293,36 +298,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/sliderScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="66" column="45" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/scrollScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="414">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/loadingPageScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="80" lean-forward="true" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
+          <caret line="10" column="80" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/scrollScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/gridScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        <state relative-caret-position="253">
+          <caret line="68" column="40" lean-forward="true" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="146" column="24" lean-forward="true" selection-start-line="146" selection-start-column="24" selection-end-line="146" selection-end-column="24" />
+        <state relative-caret-position="288">
+          <caret line="469" lean-forward="true" selection-start-line="469" selection-end-line="469" />
         </state>
       </provider>
     </entry>
