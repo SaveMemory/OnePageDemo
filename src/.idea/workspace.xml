@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/style.css" line="949" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bb80e1b5-2a8d-4122-8267-66b74213c3c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/gridScript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/sliderScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/sliderScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cardsScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cardsScript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,11 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="469" lean-forward="true" selection-start-line="469" selection-end-line="469" />
+            <state relative-caret-position="289">
+              <caret line="984" lean-forward="true" selection-start-line="984" selection-end-line="984" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/cardsScript.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -32,16 +43,16 @@
         <entry file="file://$PROJECT_DIR$/scripts/gridScript.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="68" column="40" lean-forward="true" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+            <state relative-caret-position="598">
+              <caret line="182" column="35" lean-forward="true" selection-start-line="182" selection-start-column="35" selection-end-line="182" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -59,7 +70,6 @@
     <findStrings>
       <find>nav</find>
       <find>z-index</find>
-      <find>clock</find>
       <find>hover</find>
       <find>button</find>
       <find>butt</find>
@@ -67,7 +77,6 @@
       <find>gma</find>
       <find>signu</find>
       <find>floa</find>
-      <find>skill</find>
       <find>content</find>
       <find>welcome</find>
       <find>skills</find>
@@ -76,11 +85,18 @@
       <find>about</find>
       <find>iframe</find>
       <find>whatc</find>
-      <find>card</find>
       <find>what</find>
       <find>gri</find>
       <find>grid</find>
       <find>@media</find>
+      <find>vh</find>
+      <find>CARD</find>
+      <find>#myO</find>
+      <find>#myOf</find>
+      <find>sign</find>
+      <find>clock</find>
+      <find>skill</find>
+      <find>card</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,12 +110,12 @@
         <option value="$PROJECT_DIR$/scripts/mapsScript.js" />
         <option value="$PROJECT_DIR$/scripts/animationsScript.js" />
         <option value="$PROJECT_DIR$/scripts/clockScript.js" />
-        <option value="$PROJECT_DIR$/scripts/cardsScript.js" />
         <option value="$PROJECT_DIR$/scripts/headerScript.js" />
         <option value="$PROJECT_DIR$/scripts/scrollScript.js" />
         <option value="$PROJECT_DIR$/scripts/loadingPageScript.js" />
         <option value="$PROJECT_DIR$/scripts/sliderScript.js" />
         <option value="$PROJECT_DIR$/scripts/gridScript.js" />
+        <option value="$PROJECT_DIR$/scripts/cardsScript.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
       </list>
@@ -117,7 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,6 +160,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,18 +216,19 @@
       <workItem from="1552672449651" duration="16779000" />
       <workItem from="1552767764383" duration="19000" />
       <workItem from="1552846906205" duration="6075000" />
-      <workItem from="1552942604842" duration="7327000" />
+      <workItem from="1552942604842" duration="7596000" />
+      <workItem from="1553028386175" duration="9581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148426000" />
+    <option name="totallyTimeSpent" value="158276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17911434" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17911434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -282,13 +299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/cardsScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/clockScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -320,21 +330,28 @@
     <entry file="file://$PROJECT_DIR$/scripts/gridScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="68" column="40" lean-forward="true" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="469" lean-forward="true" selection-start-line="469" selection-end-line="469" />
+        <state relative-caret-position="289">
+          <caret line="984" lean-forward="true" selection-start-line="984" selection-end-line="984" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/cardsScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="182" column="35" lean-forward="true" selection-start-line="182" selection-start-column="35" selection-end-line="182" selection-end-column="35" />
         </state>
       </provider>
     </entry>
