@@ -15,44 +15,33 @@ btnSecondSlide.addEventListener('click', showSecondSlide);
 btnThirdSlide.addEventListener('click', showThirdSlide);
 btnFourthSlide.addEventListener('click', showFourthSlide);
 
-likeBtn.addEventListener('click', function () {
-   window.alert('Thank you!');
-});
-
-dislikeBtn.addEventListener('click', function () {
-    window.alert('Thats sad :(');
-});
-
 let slideImage = document.querySelector('#slideImage');
-
 let slide = document.querySelector('.slide');
-
 let slidesContainer = document.querySelector('.slidesContainer');
-
 let images = ['./graphics/woman.jpg', './graphics/lips.gif', './graphics/shopping.png', './graphics/couple.png'];
 
 function showFirstSlide() {
     assignNewDot(1);
     changeClass();
-    setTimeout(slideImage.src = images[0], 150000);
+    slideImage.src = images[0];
 }
 
 function showSecondSlide() {
     assignNewDot(2);
     changeClass();
-    setTimeout(slideImage.src = images[1], 200);
+    slideImage.src = images[1];
 }
 
 function showThirdSlide() {
     assignNewDot(3);
     changeClass();
-    setTimeout(slideImage.src = images[2], 200);
+    slideImage.src = images[2];
 }
 
 function showFourthSlide() {
     assignNewDot(4);
     changeClass();
-    setTimeout(slideImage.src = images[3], 200);
+    slideImage.src = images[3];
 }
 
 function assignNewDot(dotNumber) {
