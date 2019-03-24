@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/style.css" line="978" />
+    <bookmark url="file://$PROJECT_DIR$/style.css" line="1007" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb80e1b5-2a8d-4122-8267-66b74213c3c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/graphics/portrait.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/boxing.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/csharp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/css.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/javascript.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/motorcycle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/programming.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/rest.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/technology.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/webdesign.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/webdev.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/sliderScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/sliderScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/clockScript.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,38 +33,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="433" column="5" selection-start-line="433" selection-start-column="4" selection-end-line="433" selection-end-column="5" />
+            <state relative-caret-position="412">
+              <caret line="220" column="17" lean-forward="true" selection-start-line="220" selection-start-column="17" selection-end-line="220" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/sliderScript.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/graphics/sea.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/cardsScript.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/graphics/shopping.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/gridScript.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graphics/turtle.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="366">
+              <caret line="237" column="56" lean-forward="true" selection-start-line="237" selection-start-column="56" selection-end-line="237" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -68,13 +77,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>gmap</find>
-      <find>hello</find>
-      <find>about</find>
-      <find>iframe</find>
-      <find>whatc</find>
-      <find>what</find>
-      <find>gri</find>
       <find>@media</find>
       <find>vh</find>
       <find>CARD</find>
@@ -98,6 +100,13 @@
       <find>sign</find>
       <find>likes</find>
       <find>myOffer</find>
+      <find>icons</find>
+      <find>iconsCo</find>
+      <find>helloc</find>
+      <find>hereIa</find>
+      <find>imgIcons</find>
+      <find>helloIcons</find>
+      <find>gmap</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,24 +119,24 @@
         <option value="$PROJECT_DIR$/sliderScript.js" />
         <option value="$PROJECT_DIR$/scripts/mapsScript.js" />
         <option value="$PROJECT_DIR$/scripts/animationsScript.js" />
-        <option value="$PROJECT_DIR$/scripts/clockScript.js" />
         <option value="$PROJECT_DIR$/scripts/headerScript.js" />
         <option value="$PROJECT_DIR$/scripts/scrollScript.js" />
         <option value="$PROJECT_DIR$/scripts/loadingPageScript.js" />
         <option value="$PROJECT_DIR$/scripts/gridScript.js" />
         <option value="$PROJECT_DIR$/scripts/cardsScript.js" />
         <option value="$PROJECT_DIR$/scripts/navScript.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scripts/sliderScript.js" />
+        <option value="$PROJECT_DIR$/scripts/clockScript.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="x" value="295" />
+    <option name="y" value="-1107" />
+    <option name="width" value="1552" />
+    <option name="height" value="848" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -142,17 +151,6 @@
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="aos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
@@ -222,16 +220,19 @@
       <workItem from="1553028386175" duration="9642000" />
       <workItem from="1553115200770" duration="7543000" />
       <workItem from="1553123573313" duration="3044000" />
+      <workItem from="1553204271565" duration="3000" />
+      <workItem from="1553204549685" duration="2000" />
+      <workItem from="1553445095973" duration="6541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168924000" />
+    <option name="totallyTimeSpent" value="175470000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-3" y="-1088" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17911434" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14278187" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -257,41 +258,14 @@
     <entry file="file://$PROJECT_DIR$/style.css.map" />
     <entry file="file://$PROJECT_DIR$/style.scss" />
     <entry file="file://$PROJECT_DIR$/graphics/startImage.jpg" />
-    <entry file="file://$PROJECT_DIR$/graphics/programming.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/graphics/boxing.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphics/headerImage.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphics/motorcycle.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/graphics/csharp.png" />
     <entry file="file://$PROJECT_DIR$/graphics/html.jpg" />
-    <entry file="file://$PROJECT_DIR$/graphics/html.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphics/javascript.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphics/rest.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/script.js" />
     <entry file="file://$PROJECT_DIR$/scripts/mapsScript.js" />
-    <entry file="file://$PROJECT_DIR$/graphics/woman.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphics/lips.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/graphics/couple.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphics/mountain.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/graphics/action-action-energy-balance-1974918.jpg" />
@@ -299,13 +273,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/clockScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -324,6 +291,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/navScript.js" />
+    <entry file="file://$PROJECT_DIR$/scripts/sliderScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/cardsScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -331,31 +305,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/sliderScript.js">
+    <entry file="file://$PROJECT_DIR$/scripts/gridScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="23">
+          <caret line="1" column="52" lean-forward="true" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/html.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/javascript.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/headerImage.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/laptop.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/lips.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/motorcycle.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/loadingGif.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/mountain.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/programming.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/rest.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/portrait.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/technology.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/shopping.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/webdesign.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/woman.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/webdev.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/turtle.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/clockScript.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="886">
-          <caret line="122" column="25" lean-forward="true" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
+        <state relative-caret-position="366">
+          <caret line="237" column="56" lean-forward="true" selection-start-line="237" selection-start-column="56" selection-end-line="237" selection-end-column="56" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/sea.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="433" column="5" selection-start-line="433" selection-start-column="4" selection-end-line="433" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/gridScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="412">
+          <caret line="220" column="17" lean-forward="true" selection-start-line="220" selection-start-column="17" selection-end-line="220" selection-end-column="17" />
         </state>
       </provider>
     </entry>

@@ -159,24 +159,53 @@ nav li:hover {
     margin-bottom: 40px;
 }
 
-#helloCard div {
+#helloCard .imgIconsContainer {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#helloCard .imgIconsContainer img {
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#helloCard .portrait {
+    padding: 0.8%;
+    background-color: #57ba98;
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
+    -moz-box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
+    box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
+}
+
+#helloCard .portrait img {
+    height: 35vh;
+}
+
+.allIcons {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+
+#helloCard .helloIcons {
     display: flex;
     width: 80%;
     align-text: center;
     justify-content: space-around;
     font-size: 5em;
+    height: 20%;
 }
 
 #helloCard div i {
     color: #65ccb8;
     animation: spin 5s linear infinite;
     animation-play-state: paused;
-    -webkit-box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
-    -moz-box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
-    box-shadow: 0px 0px 13px 0px rgba(122,122,122,1);
-    border-radius: 100%;
-    padding: 15px;
-    width: 20%;
 }
 
 #helloCard div i:hover {
@@ -949,10 +978,10 @@ footer i:hover {
         margin-top: 1vw;
     }
 
-    #helloCard div {
+    #helloCard .helloIcons {
         height: 60%;
-        flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     #newsletter {
@@ -1010,6 +1039,10 @@ footer i:hover {
         height: 70vh;
         margin-bottom: 5vh;
     }
+
+    .portrait {
+        margin-left: 10px;
+    }
 }
 
 @media screen and (max-width: 520px) {
@@ -1023,6 +1056,10 @@ footer i:hover {
 
     #whatCanIDo {
         height: 90vh;
+    }
+
+    .portrait {
+        display: none;
     }
 }
 @media screen and (max-width: 460px) {
@@ -1064,4 +1101,5 @@ footer i:hover {
     #skills {
         margin-top: 10vh;
     }
+
 }
